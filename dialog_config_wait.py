@@ -57,7 +57,7 @@ class Ui_Dialog(object):
 
 
 class Inter():
-    def __init__(self):        
+    def __init__(self):
         Dialog = QtGui.QDialog()
         ui = Ui_Dialog()
         ui.setupUi(Dialog)
