@@ -53,10 +53,10 @@ class Ui_form_config_search(object):
         self.label_2.setText(_translate("form_config_search", "Puerto:", None))
         self.push_button_ok.setText(_translate("form_config_search", "OK", None))
 
-import sys
 
 class GUISearch():
     def __init__(self):
+        import sys
         app = QtGui.QApplication(sys.argv)
         form_config_search = QtGui.QWidget()
         ui = Ui_form_config_search()
@@ -64,3 +64,16 @@ class GUISearch():
         form_config_search.show()
         sys.exit(app.exec_())
 
+class Interface():
+    def main(self):
+        a = GUISearch()
+        
+
+        
+  
+        
+        
+        
+        
+        
+        

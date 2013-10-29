@@ -9,7 +9,8 @@
 
 from PyQt4 import QtCore, QtGui
 
-from config_search import GUISearch
+from config_search import Interface
+from dialog_config_wait import Inter
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
@@ -85,8 +86,10 @@ class Ui_MainWindow(object):
         self.actionDisconnect.setText(_translate("MainWindow", "Disconnect", None))
 
     def config_search_clemente(self):
-        GUISearch()
+        a = Inter()
+        #a.exec()
 
+        #QDataWidgetMapper 
 
 if __name__ == "__main__":
     import sys
